@@ -1,0 +1,54 @@
+.qualification {
+  padding: 5rem 2rem;
+   background-color: hsl(221, 87%, 65%);
+  color: white;
+  min-height: 100vh;
+}
+
+.qualification h2 {
+  text-align: center;
+  font-size: 3rem;
+  color: blue;
+  margin-bottom: 3rem;
+}
+
+.qualification-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2.5rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.qualification-card {
+  background-color: #111827;
+  padding: 2.5rem;
+  border-radius: 16px;
+  border-left: 6px solid #8b5cf6;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  transition: all 0.3s ease;
+}
+
+.qualification-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(139,92,246,0.5);
+}
+
+.qualification-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.6rem;
+  color: #facc15;
+}
+
+.qualification-card p {
+  color: #d1d5db;
+  margin-bottom: 1rem;
+}
+
+.qualification-card span {
+  background: #8b5cf6;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
