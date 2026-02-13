@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import "./About.css";
-import profileImage from "./assets/profile.jpg";
+import profileImage from "../assets/profile.jpg";
 
 export default function About() {
     return (
